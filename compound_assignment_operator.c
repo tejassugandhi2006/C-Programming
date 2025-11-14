@@ -1,26 +1,16 @@
-#include <stdio.h>
-
+#include<stdio.h>
 int main() {
-    int a = 10, b;
-    printf("Initial value of a = %d\n", a);
-
-    b = a;
-    printf("b = %d\n", b);
-
-    a += 5;
-    printf("a = %d\n", a);
-
-    a -= 3;
-    printf("a = %d\n", a);
-
-    a *= 2;
-    printf("a = %d\n", a);
-
-    a /= 4;
-    printf("a = %d\n", a);
-
-    a %= 3;
-    printf("a = %d\n", a);
-
+    int x=10;
+    printf("initial x = %d\n", x);
+    x += 5; // x = x + 5
+    printf("x += 5 %d\n", x);
+        x -= 3; // x = x - 3
+    printf("x -= 3 %d\n", x);
+    x *= 2; // x = x * 2
+    printf("x *= 2 %d\n", x);
+    x /= 4; // x = x / 4
+    printf("x /=4 %d\n",x);
+    x %= 3; // x = x % 3
+    printf("x %%= 3 %d\n", x);
     return 0;
 }
