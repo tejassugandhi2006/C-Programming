@@ -1,0 +1,2 @@
+Welcome to File Handling in C
+This text is written to the file.
